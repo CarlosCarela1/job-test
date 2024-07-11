@@ -1,0 +1,120 @@
+
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.title_h1{
+    color: #333;
+    font-family: "Heebo", "Roboto", sans-serif;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 2.3571429rem;
+}
+.title_h2{
+    color: #333;
+    font-family: "Heebo", "Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 1.375rem;
+}
+.product_main_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.product_child_container{
+    flex: 1 1 30%;
+    max-width: 33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.title_h3{
+    font-family: "Heebo", "Roboto", sans-serif;
+    font-weight: 100;
+    color: #333;
+    margin: 0;
+    padding: 0 0 5px 0px;
+    font-size: 0.969rem;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.main_container {
+    display: flex;
+    flex-direction: column;
+}
+.child_container{
+    width: fit-content;
+}
+.paragraph{
+    margin-top: 45px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+}
+.paragraph_a{
+    color: black;
+}
+
+.button_container {
+    display: flex;
+    gap: 57px;
+    justify-content: center;
+    margin-top: 64px;
+    flex-wrap: wrap;
+}
+.button {
+    background-color: #ffba00;
+    border-radius: .1428571rem;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Heebo", "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: .05rem;
+    padding: 1rem 3rem .8571429rem 1.7857143rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: background-color 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out;
+}
+.button_text{
+    color: rgb(0, 0, 0);
+    font-family: "Heebo", "Roboto", sans-serif;
+    font-weight: 700;
+}
+.button_text_a{
+    text-decoration: none;
+}
+
+@media (max-width: 1080px) {
+
+    body{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product_child_container {
+        flex: 1 1 45%;
+        max-width: 50%;
+    }
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product_child_container {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
