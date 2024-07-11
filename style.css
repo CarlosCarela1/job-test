@@ -81,8 +81,6 @@ body{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-transition: background-color 250ms ease-in-out;
-    transition: background-color 250ms ease-in-out;
 }
 .button_text{
     color: rgb(0, 0, 0);
